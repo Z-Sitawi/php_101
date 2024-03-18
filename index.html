@@ -23,16 +23,13 @@
 <body style="margin: 0; background-color: lightgoldenrodyellow;">
     <h1 style="text-align: center; background-color: lightblue; padding: 10px;"><sub>php</sub> Hypertext Preprocessor 101 <sub>php</sub></h1>
     <section class="container">
-        <?php
-        for ($x=0; $x <3; $x++) {
-            for ($i=0; $i<5; $i++) {
-                for ($j=0; $j<5; $j++){
-                    echo "<a class=\"sq\"><a>";
-                }
-                echo "<br><br>";
-            }
-        }
-        ?>
+    <a href="./php_101/ex1.php" target="_blanck">Ex1</a><br>
+    <a href="./php_101/ex2.php" target="_blanck">Ex2</a><br>
+    <br><br><br>
+    <form action="./php_101/ex3.php" method="post">
+        <label for="name">name</label>
+        <input type="text" id="name" name="name">
+    </form>
     </section>
 </body>
 </html>

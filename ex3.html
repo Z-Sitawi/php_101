@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaires simples</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: antiquewhite;
+            width: 50vw;
+            min-height: 300px;
+        }
+        table tr th {
+            text-align: left;
+            padding-right: 30px;
+        }
+    </style>
+</head>
+<body style="display: flex; justify-content: center; margin-top: 200px;">
+    <div class="container">
+        <form action="./ex3.php" method="post">
+            <table>
+                <tr>
+                    <th><label for="name">name</label></th>
+                    <td><input type="text" id="Name" name="name"></td>
+                </tr>
+                <tr>
+                    <th><label for="lname">Lastname</label></th>
+                    <td><input type="text" id="lname" name="lname"></td>
+                </tr>
+                <tr>
+                    <th><label for="age">Age</label></th>
+                    <td><input type="number" id="age" name="age"></td>
+                </tr>
+                <tr>
+                    <th><label for="day">Day</label></th>
+                    <td><input type="text" id="day" name="day"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
